@@ -1,0 +1,72 @@
+body {
+    background: rgb(153, 249, 249);
+    overflow-y: hidden;
+}
+
+.wrapper {
+    padding-left: 30%;
+    display: flex;
+   align-items: center;   
+}
+
+.main {
+    margin: 100px;
+    padding: 0px;
+    background: rgb(70, 56, 63);
+    height: 69vh;
+    width: 35vh;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    box-shadow: 5px 25px 30px rgb(140, 175, 178);
+}
+
+.mix-bg {
+    background: rgb(245, 246, 250);
+    height: 62vh;
+    width: 32.5vh;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 20px;
+}
+
+.blue-bg {
+    background: rgb(30, 30, 83);
+    height: 48px;
+    width: 32.5vh;
+    border-radius: 15px 15px 0px 0px;
+    -webkit-border-radius: 15px 15px 0px 0px;
+    -moz-border-radius: 15px 15px 0px 0px;
+    -ms-border-radius: 15px 15px 0px 0px;
+    -o-border-radius: 15px 15px 0px 0px;
+}
+
+.white-bg {
+    padding: 0%;
+    margin-top: -48px;
+    background: rgb(245, 246, 250);
+    height: 62vh;
+    width: 29vh;
+    border-radius: 15px 0px 0px 15px;
+    box-shadow: 0px 5px 10px #00000041;
+    -webkit-border-radius: 15px 0px 0px 15px;
+    -moz-border-radius: 15px 0px 0px 15px;
+    -ms-border-radius: 15px 0px 0px 15px;
+    -o-border-radius: 15px 0px 0px 15px;
+}
+
+.content {
+    padding-left: 25px;
+}
+p {
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 30px;
+}
